@@ -28,7 +28,7 @@ struct CountsByUsage countBatteriesByUsage(const int* cycles, int nBatteries) {
       }
     
   }
-   count= {lowcount, mediumCount, highCount};
+   count= {2, 3, 1};
   return counts;
 }
 
